@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch by faiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    
+</head>
+<body>
+ 
+    <div class="mainclass">
+        <div class="mainContain">
+            <div class="hour">
+                <h1 id="hours">00</h1>
+                <p>Hours</p>
+            </div>
+            <div class="min">
+                <h1 id="min">00</h1>
+                <p>Mintues</p>
+            </div>
+            <div class="sec">
+                <h1 id="sec">00</h1>
+                <p>Second</p>
+            </div>
+            <div class="msec">
+                <h1 id="msec">00</h1>
+                <p>M.Second</p>
+            </div>   
+        </div>
+        <div class="btn">
+            <button id="play" onclick="start()"><i class="fas fa-play-circle"></i></button>
+            <button id="stop" onclick="pause()"><i class="far fa-stop-circle"></i></button>
+            <button id="reset" onclick="restart()"><i class="fas fa-redo-alt"></i></button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/6dfce0ef57.js" crossorigin="anonymous"></script>
+</body>
+</html>
